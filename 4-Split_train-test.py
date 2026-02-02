@@ -30,8 +30,8 @@ try :
     if not Path("data").is_dir():
         Path("data").mkdir(parents=True,exist_ok=True)
 
-    train_set.to_csv('data/train',index=False)
-    test_set.to_csv('data/test',index=False)
+    train_set.to_csv('data/train.csv',index=False)
+    test_set.to_csv('data/test.csv',index=False)
 
     print('Both Datasets are saved in data!')
 
