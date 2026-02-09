@@ -184,3 +184,7 @@ rmse_confidence_interval = np.sqrt(stats.t.interval(confidence, len(squared_erro
         loc=squared_errors.mean(),
         scale=stats.sem(squared_errors)))
 print(f"\n95% Confidence Interval: {rmse_confidence_interval}")
+
+# Save the final model
+import joblib
+joblib.dump(final_model, "my_california_housing_model.pkl")
