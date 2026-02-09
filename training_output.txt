@@ -1,0 +1,80 @@
+RMSE Linear Regression: 68647.95686706669
+RMSE Decision Tree: 0.0
+
+Random Forest Regressor (Cross-Validation)
+count       10.000000
+mean     46938.209246
+std       1018.397196
+min      45522.649195
+25%      46291.334639
+50%      47021.703303
+75%      47321.521991
+max      49140.832210
+dtype: float64
+
+Running Randomized Search (this may take a few minutes)...
+
+Feature Importances (sorted):
+  log__median_income: 0.1888
+  cat__ocean_proximity_INLAND: 0.0755
+  bedrooms__ratio: 0.0643
+  rooms_per_house__ratio: 0.0522
+  people_per_house__ratio: 0.0466
+  geo__Cluster 3 similarity: 0.0424
+  geo__Cluster 17 similarity: 0.0233
+  geo__Cluster 18 similarity: 0.0226
+  geo__Cluster 22 similarity: 0.0220
+  geo__Cluster 40 similarity: 0.0188
+  geo__Cluster 10 similarity: 0.0177
+  geo__Cluster 35 similarity: 0.0175
+  geo__Cluster 41 similarity: 0.0173
+  geo__Cluster 6 similarity: 0.0161
+  geo__Cluster 2 similarity: 0.0158
+  geo__Cluster 32 similarity: 0.0148
+  geo__Cluster 43 similarity: 0.0138
+  geo__Cluster 21 similarity: 0.0137
+  geo__Cluster 39 similarity: 0.0130
+  geo__Cluster 26 similarity: 0.0121
+  geo__Cluster 38 similarity: 0.0121
+  geo__Cluster 7 similarity: 0.0121
+  geo__Cluster 31 similarity: 0.0121
+  geo__Cluster 14 similarity: 0.0117
+  geo__Cluster 34 similarity: 0.0112
+  geo__Cluster 30 similarity: 0.0111
+  geo__Cluster 42 similarity: 0.0106
+  remainder__housing_median_age: 0.0105
+  geo__Cluster 0 similarity: 0.0104
+  geo__Cluster 4 similarity: 0.0103
+  geo__Cluster 1 similarity: 0.0099
+  geo__Cluster 37 similarity: 0.0095
+  geo__Cluster 44 similarity: 0.0092
+  geo__Cluster 28 similarity: 0.0091
+  geo__Cluster 8 similarity: 0.0090
+  geo__Cluster 11 similarity: 0.0083
+  geo__Cluster 25 similarity: 0.0083
+  geo__Cluster 15 similarity: 0.0082
+  geo__Cluster 36 similarity: 0.0074
+  geo__Cluster 33 similarity: 0.0073
+  geo__Cluster 23 similarity: 0.0071
+  geo__Cluster 27 similarity: 0.0070
+  log__total_rooms: 0.0070
+  geo__Cluster 16 similarity: 0.0069
+  log__population: 0.0067
+  geo__Cluster 20 similarity: 0.0064
+  geo__Cluster 24 similarity: 0.0061
+  log__total_bedrooms: 0.0061
+  geo__Cluster 19 similarity: 0.0061
+  geo__Cluster 13 similarity: 0.0060
+  log__households: 0.0060
+  geo__Cluster 9 similarity: 0.0049
+  geo__Cluster 12 similarity: 0.0046
+  geo__Cluster 5 similarity: 0.0044
+  geo__Cluster 29 similarity: 0.0036
+  cat__ocean_proximity_<1H OCEAN: 0.0026
+  cat__ocean_proximity_NEAR OCEAN: 0.0015
+  cat__ocean_proximity_NEAR BAY: 0.0005
+  cat__ocean_proximity_ISLAND: 0.0000
+
+Best Parameters: {'preprocessing__geo__n_clusters': 45, 'random_forest__max_features': 9}
+
+Final Test RMSE: 41556.053474456494
