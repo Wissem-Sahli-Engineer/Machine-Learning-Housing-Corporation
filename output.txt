@@ -1,0 +1,45 @@
+C:\Users\wgsom\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\validation.py:2749: UserWarning: X does not have valid feature names, but RandomForestRegressor was fitted with feature names
+  warnings.warn(
+RMSE Linear Regression: 68647.95686706669
+RMSE Decision Tree: 0.0
+
+Random Forest Regressor (Cross-Validation)
+count       10.000000
+mean     47067.349522
+std       1023.529204
+min      45834.817137
+25%      46347.465393
+50%      47058.434217
+75%      47440.015411
+max      49309.393736
+dtype: float64
+
+Running Randomized Search...
+
+Feature Importances:
+log__median_income: 0.2390
+cat__ocean_proximity_INLAND: 0.1038
+bedrooms__ratio: 0.0729
+people_per_house__ratio: 0.0698
+rooms_per_house__ratio: 0.0601
+geo__Cluster 9 similarity: 0.0475
+geo__Cluster 5 similarity: 0.0471
+geo__Cluster 4 similarity: 0.0470
+geo__Cluster 2 similarity: 0.0395
+geo__Cluster 1 similarity: 0.0374
+geo__Cluster 0 similarity: 0.0336
+geo__Cluster 7 similarity: 0.0300
+geo__Cluster 3 similarity: 0.0300
+geo__Cluster 8 similarity: 0.0289
+geo__Cluster 6 similarity: 0.0286
+remainder__housing_median_age: 0.0214
+cat__ocean_proximity_<1H OCEAN: 0.0129
+log__total_rooms: 0.0113
+log__population: 0.0108
+log__households: 0.0100
+log__total_bedrooms: 0.0098
+cat__ocean_proximity_NEAR OCEAN: 0.0065
+cat__ocean_proximity_NEAR BAY: 0.0020
+cat__ocean_proximity_ISLAND: 0.0002
+
+Final Test RMSE: 43640.21842978453
